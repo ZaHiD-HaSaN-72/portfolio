@@ -423,7 +423,7 @@ textarea{
  .my-skill{
     display: grid;
     grid-template-areas: 'item-1' 'item-2' 'item-3' 'item-4';
-
+    gap: 50px;
  }
  .about-content {
     justify-content: center;
@@ -436,10 +436,54 @@ textarea{
 .about-content h5{
     text-align: start;
 }
- 
+.container{
+    margin: 0 101px;
+    padding: 0 59px;
+}
+.container>p{
+    width: 484px;
+    margin-left: -97px;
+}
+ .container h3{
+    width: 200px;
+    margin-left: 31px;
+ }
+ .summary-content {
+   
+    margin: 90px 0px 0;
+    padding: 0px 51px;
+    font-size: 30px;
+    height: 1800px;
+}
+.box-2 {
+    height: 299px;
+    width: 500px;
+}
+.box-4 {
+    margin-top: -50px;
+    width: 500px;
+}
+.summary-content h2{
+    width: 450px;
+   
+}
+.colum-box2{
+    margin-top: 80px;
+}
+.my-resume{
+    display: block;
+}
  .footer-main{
     display: block;
-    width: 100%;
+    width: 590px;
+    height: 950px;
+ }
+ .footer-left{
+    padding-top: 50px;
+    margin-left: 30px;
+ }
+ .footer-right{
+    margin-left: 30px;
  }
 
 }
