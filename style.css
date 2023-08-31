@@ -280,7 +280,7 @@ textarea{
 
 /* footer end */
 /* responsive */
-@media only screen and (min-width:820px ){
+@media only screen and (max-width:820px ){
     header{
         width: 100%;
         background-color: #FFF8F3;
