@@ -307,7 +307,7 @@ textarea{
         height: 329px;
     }
     .about-content{
-        width:820px;
+        width:100%;
         padding: 50px;
    
     }
@@ -324,6 +324,9 @@ textarea{
     }
     .container h3{
        margin-left:150px ;
+    }
+    .box-2{
+        height: 280px;
     }
  .my-skill{ grid-area: item-1; }
  .my-skill{ grid-area: item-2; }
