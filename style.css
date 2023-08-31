@@ -148,7 +148,7 @@ color: rgb(75, 75, 75);
     width: 800px;
     text-align: center;
     font-size: 16.5px;
-    
+    margin-left: 100px;
     margin-bottom: 60px;
     
 }
@@ -279,8 +279,12 @@ textarea{
 }
 
 /* footer end */
+
+
+
+
 /* responsive */
-@media only screen and (max-width:820px ){
+@media only screen and (min-width:400px)and (max-width:850px ){
     header{
         width: 100%;
         background-color: #FFF8F3;
@@ -313,14 +317,16 @@ textarea{
     }
     
     .container{
-        margin-left: 0px;
-        padding-left: 60px;
+      gap: 50px;
+      margin-left: 0;
+      padding-left: 60px;
     }
     .container>p{
         text-align: center;
         padding-left: 0px;
-        margin-right: 20px;
+        margin-right: 25px;
         width: 700px;
+        margin-left: -10px;
     }
     .container h3{
        margin-left:150px ;
@@ -352,7 +358,7 @@ textarea{
  }
  .footer-left {
     padding-top: 70px;
-    width: 599px;
+    width: 500px;
     margin-left: 152px;
 }
 .footer-right {
@@ -360,10 +366,8 @@ textarea{
     margin-top: 70px;
     margin-left: 134px;
 }
-
-
 }
-@media only screen and (max-width:820px){
+@media only screen and (min-width:400px)and (max-width:850px){
     .my-info{ grid-area: abtem1; }
     .my-info{ grid-area: abtem2; }
     .my-info{ grid-area: abtem3; }
@@ -374,6 +378,85 @@ textarea{
        'abtem3 abtem4';
        gap: 20px;
        padding: 0 70px;
+    }
+    
+}
+
+@media only screen and (max-width:395px){
+    nav{
+        display: block;
+        
+        margin: 0 30px;
+        padding: 0;
+        padding-top: 80px;
+    }
+    nav ul{
+        display: block; 
+        font-size: 25px;
+    }
+    nav li{
+        margin: 50px 0;
+    }
+    header{
+        width: 600px;
+        height: px;
+       background-image: url(images/developer\ -\ Copy.png), url(images/header_bg.png) ;
+       background-size: 500px, 600px;
+       background-position: 29px 15px, 141px 116px;
+    }
+    .man-png{
+        height: 390px;
+        margin: -363px 0 20px 119px;
+    }
+    .banner-content {
+        width: 518px;
+        margin-left: -64px;
+    }
+   .banner{
+    flex-direction: column-reverse;
+    gap: 20px;
+   }
+ .my-skill{ grid-area: item-1; }
+ .my-skill{ grid-area: item-2; }
+ .my-skill{ grid-area: item-3; }
+ .my-skill{ grid-area: item-4; }
+ .my-skill{
+    display: grid;
+    grid-template-areas: 'item-1' 'item-2' 'item-3' 'item-4';
+
+ }
+ .about-content {
+    justify-content: center;
+    width: 586px;
+    height: 606px;
+    margin: 78px auto;
+    padding: 18px;
+    font-size: 30px;
+}
+.about-content h5{
+    text-align: start;
+}
+ 
+ .footer-main{
+    display: block;
+    width: 100%;
+ }
+
+}
+@media only screen and (max-width:395px){
+    .my-info{ grid-area: abtem1; }
+    .my-info{ grid-area: abtem2; }
+    .my-info{ grid-area: abtem3; }
+    .my-info{ grid-area: abtem4; }
+    .my-info {
+        display: grid;
+        grid-template-areas:
+            'abtem1'
+            'abtem2'
+            'abtem3'
+            'abtem4';
+        gap: 25px;
+        padding: 0 145px;
     }
     
 }
